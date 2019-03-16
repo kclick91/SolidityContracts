@@ -14,5 +14,4 @@ Currently this is a test contract so the first function would need to be removed
 
 Anybody can use this contract at the moment by changing the password.
 
-This contract is restricted to my account and password.
-https://ropsten.etherscan.io/address/0x984176f915d56bf5781c0c0e7cff4e3b436000a5
+
