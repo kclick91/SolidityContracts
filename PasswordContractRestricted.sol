@@ -86,7 +86,7 @@ contract PasswordContract is Ownable {
     }
     
     //Enter a password with keccak256 hash, include 0x
-    function setPassword(bytes32 pwd, bytes32 oldpwd) public onlyOwner
+    function setPassword(bytes32 pwd, string memory oldpwd) public onlyOwner
     {
         require(keccak256(abi.encodePacked(oldpwd)) == b);
         b = pwd;
